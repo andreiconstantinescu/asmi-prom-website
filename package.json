@@ -1,0 +1,23 @@
+{
+  "name": "asmi-prom-website",
+  "version": "0.1.0",
+  "engines": {
+    "node": "0.10.32"
+  },
+  "description": "Source code for the ASMI and ASAA website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test:once && if [ $CI ]; then npm run coveralls; fi",
+    "coveralls": "cat ./coverage/phantomjs/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "keywords": [
+    "website",
+    "prom",
+    "asmi",
+    "fmi",
+    "asaa",
+    "nightclub"
+  ],
+  "author": "Andrei Constantinescu",
+  "license": "MIT"
+}
