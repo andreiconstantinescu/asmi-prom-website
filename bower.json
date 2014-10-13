@@ -1,0 +1,17 @@
+{
+  "name": "asmi-prom-website",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andreiconstantinescu/asmi-prom-website",
+  "authors": [
+    "Andrei Constantinecu <andrei.c@icloud.com>"
+  ],
+  "description": "Source code for the ASMI and ASAA website.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
