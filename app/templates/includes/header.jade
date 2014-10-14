@@ -1,21 +1,20 @@
-nav.navbar.navbar-fixed-top(role="navigation")
+nav.navbar.navbar-fixed-top.navbar-default(role="navigation")
   .container
     .navbar-header
-      button.navbar-toggle(type="button", data-toggle="collapse", data-target="#navbar-collapse")
-        i.fa.fa-bars
-      .navbar-brand
-        .logo
-          a(href="/")
-            img(src="http://placehold.it/300/300")
-        span.title
-          span.brand Balul Bobocilor
-      .collapse.navbar-collapse(id="navbar-collapse")
-        ul.nav.navbar-nav.navmenu
-          li.dropdown-toggle
-            a(href="/") Acasa
-          li
-            a(href="/contestants/") Concurenti
-          li
-            a(href="/location/") Locatie
-          li
-            a(href="/contact/") Contact
+      button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#navbar-collapse-menu")
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href="/")
+        span Balul Bobocilor
+    .collapse.navbar-collapse.navbar-right(id="navbar-collapse-menu")
+      ul.nav.navbar-nav
+        li.active
+          a(href="/") Home
+        li
+          a(href="/contestants/") Concurenti
+        li
+          a(href="/location/") Locatie
+        li
+          a(href="/contact/") Contact

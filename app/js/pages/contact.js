@@ -1,6 +1,6 @@
 'use strict';
 
-var Backbone = require('../shims/bakcbone');
+var Backbone = require('../shims/backbone');
 var View = Backbone.View;
 var templates = require('../lib/templates');
 

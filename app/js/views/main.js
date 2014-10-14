@@ -1,7 +1,7 @@
 'use strict';
 
 var Backbone = require('../shims/backbone');
-var View = Backbone.View
+var View = Backbone.View;
 
 var $ = require('../shims/jquery');
 var _ = require('lodash');
@@ -13,6 +13,7 @@ module.exports = View.extend({
   template: templates.body,
   events: {
     'click a[href]:not([rel="download"])': 'handleLinkClick',
+    'click .navbar-nav li': 'handleNavLink',
     'scroll': 'handleScrolling'
   },
 
@@ -75,5 +76,10 @@ module.exports = View.extend({
     var scrollPos = $(window).scrollTop();
     var state = (scrollPos > 10);
     this.$('.navbar').toggleClass('nav-scrolled', state);
+  },
+
+  handleNavLink: function () {
+    this.$('.navbar li').removeClass('active');
+    console.log($(this).text());
   }
 });

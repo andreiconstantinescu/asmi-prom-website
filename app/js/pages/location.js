@@ -11,7 +11,7 @@ module.exports = View.extend({
   render: function () {
     var self = this;
 
-    self.$el.html(self.temaplate());
+    self.$el.html(self.template());
 
     return self;
   }

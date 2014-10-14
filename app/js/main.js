@@ -25,7 +25,7 @@ module.exports = {
       });
 
       //Render the main view
-      mainView.Render();
+      mainView.render();
 
       //Listen for the 'newPage' event
       self.router.on('newPage', mainView.setPage, mainView);

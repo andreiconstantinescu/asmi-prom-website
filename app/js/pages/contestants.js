@@ -6,7 +6,7 @@ var templates = require('../lib/templates');
 
 module.exports = View.extend({
   pageTitle: 'Balul Bobocilor | Contestants',
-  temaplates: templates.pages.contestants,
+  template: templates.pages.contestants,
 
   render: function () {
     var self = this;
