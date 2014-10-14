@@ -1,3 +1,5 @@
+@import pictureStripe
+@import organizerStripe
 body
   font-size: 18px
   line-height: 140%
@@ -10,6 +12,18 @@ body
   background: white
 
 [role="page-container"]
-  padding-top: 50px
   @media (max-width: 767px)
     background: #eee
+.navbar
+  a
+    color: #C5EFF7
+    &:hover
+      color: black
+  &.nav-scrolled
+    background-color: rgba(0, 0, 0, 0.4)
+.footer
+  background-color: #ABB7B7
+  img
+    padding: 15px
+    width: 100%
+    height: auto

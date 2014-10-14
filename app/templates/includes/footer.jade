@@ -1,1 +1,10 @@
+- var logos = ['http://placehold.it/200x200', 'http://placehold.it/200x200', 'http://placehold.it/200x200', 'http://placehold.it/200x200', 'http://placehold.it/200x200', 'http://placehold.it/200x200' ]
 .footer
+  .container
+    .row
+      each logo in logos
+        .col-sm-2
+          img(src="#{logo}")
+    .small.text-center
+      p Asociatia Studentilor la Matematica și Informatica
+      p &#169 Andrei Constantinescu, 2014
