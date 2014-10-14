@@ -13,7 +13,7 @@ module.exports = View.extend({
   template: templates.body,
   events: {
     'click a[href]:not([rel="download"])': 'handleLinkClick',
-    'click .navbar-nav li': 'handleNavLink',
+    'click .navbar-nav a': 'handleNavLink',
     'scroll': 'handleScrolling'
   },
 
@@ -79,7 +79,16 @@ module.exports = View.extend({
   },
 
   handleNavLink: function () {
-    this.$('.navbar li').removeClass('active');
-    console.log($(this).text());
+    var url = window.location;
+
+    this.$('.navbar a').parent().removeClass('active');
+
+    if (url.hostname === 'localhost') {
+      this.$('.navbar a[href="/' + url.hash.slice(1) + '"]').parent().addClass('active');
+      console.log( url.hash.slice(1));
+    }
+    else {
+      this.$('.nav a[href="/' + url.hash + '"]').parent().addClass('active');
+    }
   }
 });
