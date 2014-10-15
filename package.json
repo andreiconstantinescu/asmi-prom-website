@@ -14,6 +14,9 @@
     "asaa",
     "nightclub"
   ],
+  "scripts": {
+    "install": "./node_modules/bower/bin/bower install && ./node_modules/gulp/bin/gulp.js build:dist"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/andreiconstantinescu/asmi-prom-website"
