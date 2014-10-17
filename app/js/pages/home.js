@@ -4,11 +4,13 @@ var Backbone = require('../shims/backbone');
 var View = Backbone.View;
 var templates = require('../lib/templates');
 
+var $ = require('../shims/jquery');
+
 module.exports = View.extend({
   pageTitle: 'Balul Bobocilor | Home',
   template: templates.pages.home,
   events: {
-    'click .chevron': 'hadleChevronClick'
+    'click .chevron': 'handleChevronClick'
   },
 
   render: function () {
@@ -19,7 +21,7 @@ module.exports = View.extend({
     return self;
   },
 
-  handleChvronClick: function () {
+  handleChevronClick: function () {
     $('body').animate({
       scrollTop: this.$('.asmi').offset().top - 50
     }, 200);
