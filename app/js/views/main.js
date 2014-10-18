@@ -89,7 +89,6 @@ module.exports = View.extend({
 
     if (url.hostname === 'localhost') {
       this.$('.navbar a[href="/' + url.hash.slice(1) + '"]').parent().addClass('active');
-      console.log( url.hash.slice(1));
     }
     else {
       this.$('.nav a[href="/' + url.hash + '"]').parent().addClass('active');
@@ -97,9 +96,8 @@ module.exports = View.extend({
   },
 
   handleNavHover: function (element) {
-    console.log(element.type);
     if (element.type === 'mouseenter') {
-      console.log($('l'));
+      $('li').removeClass('active');
     }
     else {
       this.handleNavLink();
