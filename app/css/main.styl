@@ -3,7 +3,7 @@
 body
   font-size: 18px
   line-height: 140%
-  font-family: 'Roboto'
+  font-family: 'Roboto', 'Roboto Slab'
   background: #fff
 
 .content
@@ -15,17 +15,26 @@ body
   @media (max-width: 767px)
     background: #eee
 .navbar
-  a
-    color: #C5EFF7
-    border-bottom: 2px solid transparent;
-    &:hover
-      background-color: initial
-      color: black
-      // border-color: black
+  .navbar-header a
+    color: #333333
+  .navbar-right
+    a
+      color: #333333
+      border-bottom: 2px solid transparent;
+      &:hover
+        background-color: transparent !important
+        border-color: #333333
+
   &.nav-scrolled
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0.7)
+    a
+      color: #F6F6F6
+      &:hover
+        border-color: #F6F6F6
+    .active a
+      border-color: #F6F6F6
   .active a
-    border-color: black
+    border-color: #333333
 .footer
   h2
     font-family: 'Roboto Slab'

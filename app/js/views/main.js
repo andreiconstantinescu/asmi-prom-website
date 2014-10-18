@@ -14,7 +14,8 @@ module.exports = View.extend({
   events: {
     'click a[href]:not([rel="download"])': 'handleLinkClick',
     'click .navbar-nav a': 'handleNavLink',
-    'scroll': 'handleScrolling'
+    'scroll': 'handleScrolling',
+    'hover .navbar-nav a' : 'handleNavHover'
   },
 
   render: function () {
@@ -22,6 +23,7 @@ module.exports = View.extend({
     this.$el.append(this.template());
 
     $(window).scroll(this.handleScrolling.bind(this));
+    $('.navbar-nav a').hover(this.handleNavHover.bind(this));
     function getClasses(view) {
       if (typeof(view) !== 'object' || typeof(view.customDocumentClasses) !== 'function') {
         return [];
@@ -51,6 +53,8 @@ module.exports = View.extend({
         self.$('.navbar-toggle').click();
       }
     });
+
+    this.handleNavLink();
 
     return this;
   },
@@ -89,6 +93,16 @@ module.exports = View.extend({
     }
     else {
       this.$('.nav a[href="/' + url.hash + '"]').parent().addClass('active');
+    }
+  },
+
+  handleNavHover: function (element) {
+    console.log(element.type);
+    if (element.type === 'mouseenter') {
+      console.log($('l'));
+    }
+    else {
+      this.handleNavLink();
     }
   }
 });
