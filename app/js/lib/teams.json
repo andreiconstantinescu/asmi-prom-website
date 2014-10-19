@@ -23,7 +23,7 @@
     {
       "boy": {
         "name": "Ion - ASMI",
-        "description": "Andrei's description.",
+        "description": "Ion's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -32,7 +32,7 @@
       },
       "girl": {
         "name": "Ioana - ASMI",
-        "description": "Andreea's description.",
+        "description": "Ioana's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -43,7 +43,7 @@
     {
       "boy": {
         "name": "Alexandru - ASMI",
-        "description": "Andrei's description.",
+        "description": "Alexandru's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -52,7 +52,7 @@
       },
       "girl": {
         "name": "Alexandra - ASMI",
-        "description": "Andreea's description.",
+        "description": "Alexandra's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -85,7 +85,7 @@
     {
       "boy": {
         "name": "Ion - ASAA",
-        "description": "Andrei's description.",
+        "description": "Ion's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -94,7 +94,7 @@
       },
       "girl": {
         "name": "Ioana - ASAA",
-        "description": "Andreea's description.",
+        "description": "Ioana's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -105,7 +105,7 @@
     {
       "boy": {
         "name": "Alexandru - ASAA",
-        "description": "Andrei's description.",
+        "description": "Alexandru's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
@@ -114,7 +114,7 @@
       },
       "girl": {
         "name": "Alexandra - ASAA",
-        "description": "Andreea's description.",
+        "description": "Alexandra's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
           "http://lorempixel.com/400/200/people/2",
