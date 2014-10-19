@@ -9,13 +9,12 @@ module.exports = View.extend({
   template: templates.pages.teams,
 
   initialize: function (options) {
-    console.log(options.faction);
-
+    this.faction = options.faction;
   },
 
   render: function () {
     var self = this;
-
+    console.log(self.faction);
     self.$el.html(self.template());
 
     return self;

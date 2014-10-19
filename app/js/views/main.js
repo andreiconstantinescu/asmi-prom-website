@@ -24,26 +24,12 @@ module.exports = View.extend({
 
     $(window).scroll(this.handleScrolling.bind(this));
     $('.navbar-nav a').hover(this.handleNavHover.bind(this));
-    function getClasses(view) {
-      if (typeof(view) !== 'object' || typeof(view.customDocumentClasses) !== 'function') {
-        return [];
-      }
-      return view.customDocumentClasses();
-    }
 
     this.pageSwitcher = new ViewSwitcher(this.$('[role="page-container"]')[0], {
       show: function (newView) {
         document.title = newView.pageTitle || 'Balul Bobocilor';
         window.scrollTo(0, 0);
-        var html = $('html');
-        _.each(self.documentClasses, function (c) {
-          html.removeClass(c);
-        });
-        self.documentClasses = getClasses(newView);
-        _.each(self.documentClasses, function (c) {
-          html.addClass(c);
-        });
-
+        
         window.app.currentPage = newView;
       }
     });
