@@ -29,7 +29,7 @@ module.exports = View.extend({
       show: function (newView) {
         document.title = newView.pageTitle || 'Balul Bobocilor';
         window.scrollTo(0, 0);
-        
+
         window.app.currentPage = newView;
       }
     });
