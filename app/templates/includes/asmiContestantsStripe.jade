@@ -1,0 +1,17 @@
+h2 ASMI
+#carousel.carousel.slide(data-ride='carousel')
+  ol.carousel-indicators
+    li.active(data-target='#carousel', data-slide-to='0')
+    li(data-target='#carousel', data-slide-to='1')
+    li(data-target='#carousel', data-slide-to='2')
+  .carousel-inner
+    .item.active
+      img(src='http://lorempixel.com/1500/600/abstract/1', alt='Slide 1')
+    .item
+      img(src='http://lorempixel.com/1500/600/abstract/2', alt='Slide 2')
+    .item
+      img(src='http://lorempixel.com/1500/600/abstract/3', alt='Slide 3')
+  a.left.carousel-control(href='#carousel', data-slide='prev')
+    span.glyphicon.glyphicon-chevron-left
+  a.right.carousel-control(href='#carousel', data-slide='next')
+    span.glyphicon.glyphicon-chevron-right

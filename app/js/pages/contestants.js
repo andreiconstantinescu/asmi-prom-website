@@ -12,7 +12,7 @@ module.exports = View.extend({
     var self = this;
 
     self.$el.html(self.template());
-
+    this.$('.carousel').carousel();
     return self;
   }
 });
