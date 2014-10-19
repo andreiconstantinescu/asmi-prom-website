@@ -3,6 +3,7 @@
 var Backbone = require('../shims/backbone');
 var View = Backbone.View;
 var templates = require('../lib/templates');
+var teams = require('../lib/teams');
 
 module.exports = View.extend({
   pageTitle: 'Balul Bobocilor | Teams',
@@ -14,8 +15,10 @@ module.exports = View.extend({
 
   render: function () {
     var self = this;
-    console.log(self.faction);
-    self.$el.html(self.template());
+    self.$el.html(self.template({
+      faction: teams[self.faction]
+      }
+    ));
 
     return self;
   }

@@ -22,7 +22,7 @@
     },
     {
       "boy": {
-        "name": "Andrei - ASMI",
+        "name": "Ion - ASMI",
         "description": "Andrei's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -31,7 +31,7 @@
         ]
       },
       "girl": {
-        "name": "Andreea - ASMI",
+        "name": "Ioana - ASMI",
         "description": "Andreea's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -42,7 +42,7 @@
     },
     {
       "boy": {
-        "name": "Andrei - ASMI",
+        "name": "Alexandru - ASMI",
         "description": "Andrei's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -51,7 +51,7 @@
         ]
       },
       "girl": {
-        "name": "Andreea - ASMI",
+        "name": "Alexandra - ASMI",
         "description": "Andreea's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -84,7 +84,7 @@
     },
     {
       "boy": {
-        "name": "Andrei - ASAA",
+        "name": "Ion - ASAA",
         "description": "Andrei's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -93,7 +93,7 @@
         ]
       },
       "girl": {
-        "name": "Andreea - ASAA",
+        "name": "Ioana - ASAA",
         "description": "Andreea's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -104,7 +104,7 @@
     },
     {
       "boy": {
-        "name": "Andrei - ASAA",
+        "name": "Alexandru - ASAA",
         "description": "Andrei's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
@@ -113,7 +113,7 @@
         ]
       },
       "girl": {
-        "name": "Andreea - ASAA",
+        "name": "Alexandra - ASAA",
         "description": "Andreea's description.",
         "images": [
           "http://lorempixel.com/400/200/people/1",
