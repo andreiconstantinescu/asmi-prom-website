@@ -30,7 +30,7 @@ module.exports = View.extend({
     map.addMarker({
       lat: 44.4453485,
       lng: 26.0586513
-    })
+    });
     setTimeout(function () {
       self.map.refresh();
       self.map.setCenter(44.4453485, 26.0586513);
