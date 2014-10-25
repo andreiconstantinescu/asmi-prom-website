@@ -3,6 +3,7 @@
 var Backbone = require('../shims/backbone');
 var View = Backbone.View;
 var templates = require('../lib/templates');
+var teams = require('../lib/teams');
 
 module.exports = View.extend({
   pageTitle: 'Balul Bobocilor | Contestants',
@@ -11,7 +12,9 @@ module.exports = View.extend({
   render: function () {
     var self = this;
 
-    self.$el.html(self.template());
+    self.$el.html(self.template({
+      teams: teams
+    }));
     this.$('.carousel').carousel();
     return self;
   }

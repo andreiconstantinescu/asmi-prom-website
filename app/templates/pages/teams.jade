@@ -10,9 +10,9 @@
                 if (index === 0)
                   a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
                     img.img-responsive(src="#{image}")
-                 else
-                   a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
+                else
+                  a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
             .team.member.name
               h3 #{member.name}
             .team.member.description
-              p #{member.description}
+              p !{member.description}
