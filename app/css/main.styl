@@ -11,8 +11,10 @@ body
 .content
   margin-top: 15px
   padding: 15px
+  background-color: #fff
 
 [role="page-container"]
+  padding-top: 50px
   @media (max-width: 767px)
     background: #eee
 .navbar
@@ -49,5 +51,13 @@ body
   h2
     font-family: 'Roboto Slab'
     font-size: 3.5em
-.teams img
-  width: 100%
+.teams
+  .content
+    margin: 15px 0
+  .team.member.image
+    position: relative
+    height: 25em
+    .img-responsive
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)

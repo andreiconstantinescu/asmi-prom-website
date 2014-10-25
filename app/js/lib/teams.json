@@ -1,124 +1,124 @@
 {
   "asmi": [
-      {
-        "boy": {
-        "name": "Andrei - ASMI",
-        "description": "Andrei's description.",
-        "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
-        ]
-      },
-      "girl": {
-        "name": "Andreea - ASMI",
-        "description": "Andreea's description.",
-        "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
-        ]
-      },
-    },
     {
       "boy": {
-        "name": "Ion - ASMI",
-        "description": "Ion's description.",
+        "name": "Serban Marius Bogdan",
+        "description": "Am practicat atletismul de performanta pana in clasa a XII-a, acum frecventez antrenamentele doar de placere. Imi plac pisicutele, am avut mai multe cand eram mic, dar mama mi-a spus ca in casa raman ori eu, ori pisicile. Am facut cateva reclame pt produse comerciale, odata am purtat chiar si un port arabesc cu turban, o camila mai lipsea :).",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2pQv3CSH7FAbTlhDl_AJEkLGAafO9Djqs68vKDO97dnP4ZGt6JZK_OGaKBg5NuW7MzcZm7CE3yqCLDDKDRIFK0hHae1Aq6mG3BzfldKM5IJXk/IMG_2723.jpg?psid=1",
+          "https://public-ch3302.files.1drv.com/y2pjUWS3cqe_DOWpKQhbTFJpj6M-bT8D-BV0QJDWi8SWTBAnDFdwgTyGm3xWQl2_ZEpQXCRkNtGLpu8XkDjrBASIrNJMTe7KzCF4eQK1Vb5fIU/IMG_2726.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pTTrw9rcRagCs9rAWa-6M0vLNLR6ohO5RyAhJ9OyBTRiqylMKeR7YmNkcHpcBHIFDYHLnU-sfZP2yu_-ED0j1UMCpmZjaZ2-2TbsUYpJ1qro/IMG_2727.jpg?psid=1"
         ]
       },
       "girl": {
-        "name": "Ioana - ASMI",
-        "description": "Ioana's description.",
+        "name": "Andreea Burlan",
+        "description": "Buna! Ma numesc Andreea, dar prietenii ma striga Deea. Sunt o persoana deschisa, amuzanta si energica si imi place sa imi petrec timpul inconjurata de prieteni. Sunt o fire foarte sociabila si vesela, sunt mereu optimista, mereu cu zambetul pe buze. Pasiunile mele sunt muzica si modelingul.",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2pwMZM5ZzagYakobWvIrRyzFT2ic-HFkN_aubf0UXz9uP1VSi13ZM48iNg22VuXzg8Zbs_3T41PKZX2wNjacmw3YjNc9LZBhD1WwWeIr-xPc4/IMG_2832.jpg?psid=1",
+          "https://public-ch3302.files.1drv.com/y2pFKc_SGFxvm5nPD8DNu0eK9DL1-afuL2Bc7nB5aB7mFd_vSr4u440p3eI4iI--qIHNCrrzwQkMkkxupfzY0_jAxvojt8kZBV4G55IMxxgMzA/IMG_2813.jpg?psid=1",
+          "https://public-ch3301.files.1drv.com/y2pjXEcpo1QEKOYGYfic-bG4vK3A9dydbXioP25RV3ItrGxlVEo_9ZpBQTOfj064xK3mngWdoMoUBrtVKJYTUo6ileK6j8PRphfxAXQ-bxY8dQ/IMG_2827.jpg?psid=1"
         ]
       }
     },
     {
       "boy": {
-        "name": "Alexandru - ASMI",
-        "description": "Alexandru's description.",
+        "name": "Serban Marius Valentin",
+        "description": "Salut! Ma numesc Serban Marius-Valentin si sunt din Ploiesti. Ma consider o persoana prietenoasa ,sociabila ,altruista si cu simtul umorului dar  si putin aroganta.Imi place sa practic inotul si sporturile de contact.",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public-ch3302.files.1drv.com/y2pgm1NanHmGEwZUGyidwHkA2h-RLZocwMI7zYzHeCDQMLSJyc02b9iMiqrQJOWUWBu8c3iE_CEnrzTB5XXLzEjA3oWwF6A1XoLMVIJNGmY2QI/IMG_2702.jpg?psid=1",
+          "https://public-ch3302.files.1drv.com/y2prvkJ_x-eRDrmGETxCMX7jo2zB_tcicTzQEVKY3VjZ4cw0n6vSfYwSyIt-Ad1vJ2AIw0kB8-pNUT30RpaTPpTawUsC2_l9NbvWy9N8kiuq_A/IMG_2722.jpg?psid=1",
+          "https://public-ch3301.files.1drv.com/y2pHPfngIvdo_6Qyl1Nv-yrt9MIgLxeEE6ozaUtCeawXL4ENfLVQXcpUIgVHsVepP-c1y6AMUWu0iAxVP3aeIhzf0Q-j7SYQfv91WWANkfcHCg/IMG_2877.jpg?psid=1"
         ]
       },
       "girl": {
-        "name": "Alexandra - ASMI",
-        "description": "Alexandra's description.",
+        "name": "Andra Florentina",
+        "description": "Hei, sunt Andra. Sunt o persoana carismatica, inteligenta si cu foarte multa energie . Sunt foarte vorbareata, imi place sa cunosc oameni noi,adrenalina si sa calatoresc !",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2p6Mg7j_Fy2fLPkha1rB8akq0YiEBEa5c5yo7-P54XYHyKekLVtw-Cf6ARefKwzSXxlU3WNABLMxxP_mqEIqEU6s_4x9KiB2MNaDsUgwofwHw/IMG_2792.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2psUOF0hvAdk7mqm93z1x0J18Uw3g4bI0CQPrFrXDPAsqgSQEhhOm1h196z9iH7agKSt8OAwkYsYkq0kkNc7DdPlSqbq6eVOtB_jBgkpAYQYQ/IMG_2800.jpg?psid=1",
+          "https://public-ch3302.files.1drv.com/y2ppBwBFluuBTqnJ_hFHou_S8EG94Z8WxyPMDHJC7U3mjQbWH9c16ErJBky2ZN0wKm3CJ0MxAsmQIRPh2JhwFK0BEK0P2L5lJVtCQxed6gcWQU/IMG_2776.jpg?psid=1"
+        ]
+      }
+    },
+    {
+      "boy": {
+        "name": "Andrei Turcu",
+        "description": "Ma numesc Turcu, doar mama imi zice Andrei<br>Problema mea cea mare-i ca am prea multe idei<br>Student la informatica boboc, nu ofilit<br>Sunt un pic cam zapacit<br>4 ani de baschet m-au ajutat sa cresc<br>Si fac doar ce-mi place nu ma feresc<br>Mai fac si site-uri de alti 5 ani<br>Sunt productiv ca placutele cu rami<br>Gata cu descrierea aici am terminat<br>Semnat Turcu poet incapatanat",
+        "images": [
+          "https://public.dm2304.livefilestore.com/y2pVnTnvSP0YNvY1LdBwaKHwWgAEMt_z3s7bKpRi3Ir57qD7odXXSjztIPKio2UP-Lwcw1uae62-QfTAcENVzRr34dKRSOPQfYEmIpoXhOf_u8/IMG_2992.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pVHeLQpfGvXbC_0_qIpgGtMAyR9YjohIzCGG5HXiuIkKUURtPspyRxpYa9Afbj1PV-rF4YfOKkDWjfyG2kBUzwPnXX2lsWUKjCJ7b7JwdPjU/IMG_2988.jpg?psid=1",
+          "https://public-ch3301.files.1drv.com/y2pbKQzNgyEZsEvyJngbW0hsWsl2lVuxPH23XeZxLD6-tOPCqhi56-lbETAQsKdFYlW84WF3pAZJN13POeXZL6v3wPB_mAFdohkJGl-CLzI_IU/IMG_3009.jpg?psid=1"
+        ]
+      },
+      "girl": {
+        "name": "Petrovai Ioana",
+        "description": "Mă numesc Ioana Petrovai, sunt din Sighetu Marmației și studiez la Facultatea de Matematică și Informatică, specializarea Matematică. Mă consider o fire energică și vorbăreață, căreia îi place să se bucure de viață. Sunt altruistă, empatică și foarte sinceră. Keep calm and vote me! :)",
+        "images": [
+          "https://public.dm2304.livefilestore.com/y2pP77iGZAnEZxPY5mNnUzspQy0xrXJhLU34RgkEyRnG9DFIrqGp_176VhbN4wUBmc4chXrgQk2Eu9XvrweZW173qGHzPfhWkOXMLz65jfYXfw/IMG_2865.jpg?psid=1",
+          "https://public-ch3302.files.1drv.com/y2pFov-hf6LhVmLfuXKSek12zTbuXvPxRPkt2LyZd4jLCBGFXcpnXKHGV_xGwKXy9J0n3LDr8zgjSowCaidiUTF-ADChVqjPTLFs3PeNjW9vJA/IMG_2891.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pvbRd21GwTk90lHrDeqJn5Nh1vIEdYuGoTotlWM_PxDoZo66sCE_FDVzypX5UBGcvObzbOTkxSvkXPzsN99HMNjCDwNc_g0y-Ipnwl7-Pehw/IMG_2876.jpg?psid=1"
         ]
       }
     }
   ],
   "asaa": [
-      {
-        "boy": {
-        "name": "Andrei - ASAA",
-        "description": "Andrei's description.",
+    {
+      "boy": {
+        "name": "Furfurica Eduard",
+        "description": "Buna! Sunt Furfurica Eduard si sunt dansator. Al doilea meu hobby este mersul la facultate , o activitate foarte interesanta , in special pentru proiectele desfasurate in cadrul acestei facultati ; proiecte precum Balul Bobocilor ce ofera studentilor sansa sa-si arate aptitudinile la scena deschisa in fata colegilor din intreaga universitate. Sunt o persoana destul de increzatoare si voi incerca sa multumesc atat publicul cat si juriul cu ceea ce stiu cel mai bine !",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2p_h4PdzSmTDc_K-AI2gL-zZ5qJlMYcobcFGqbanjbfXf2_2Vja-aB0cMFy03bEMMIaPAbtRVXVwsZ-7FlYQdCCmLBrGI8Eaz0p0y4OCxB8JE/IMG_2693.jpg?psid=1",
+          "https://public-ch3301.files.1drv.com/y2pykWS88TjecVvqSvd78dyuB9Yfs6e4Er6GSqvYJY746oRx5uByscfgYIN4dcuX_5uzGsqSFn0av2EX_Hpon9JA-AHoXUm1zDRv_JtWefvIfo/IMG_2692.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pjQKwL-mNlihU6RrQSsm1R21_DG_ywk25aYnmhebzAmOgw8vurq-rvvk3pUkLqU5XCGZHFWn0s8n3Btp--BVSplTuRFfOcV0nw5cB75PkzUc/IMG_2697.jpg?psid=1"
         ]
       },
       "girl": {
-        "name": "Andreea - ASAA",
-        "description": "Andreea's description.",
+        "name": "Condrat Irina",
+        "description": "Ma numesc Condrat Irina si sunt din orasul Sulina , oras cu care am crescut. Pasiunile mele sunt cantatul, cititul si dansul ; sunt o fire destul de egoista si un critic  fara speranta dar cred ca fara defectele astea nu as mai fi originala, fiindca amandoua sunt doar forme de amuzament, care cred ca se dovedesc a fi un altruism ascuns.",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2pDddVlZLEHBgzp6IOx0d25l64pIsZVRmJcloXvMBpVisxNSfgjbmAwQ4idgHbjQZsJue1NFHX6eWxPowKGbviF9zgEiQEqxccU-5GGwL5ChE/IMG_2737.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pgY2eTP5uA8-2En-DwQp4x-I0vcBEz3ZRKI4RJFFQg1lNk1evIL7gi1UZRpXdTiSL0M4MvaUhQbkHJXY8YGQNx6hNW-wObUusCp0aht1m_eY/IMG_2739.jpg?psid=1",
+          "https://public-ch3302.files.1drv.com/y2prrV8IjYK5nOONPjmtr2tyACpAfdFxxc0jF4BRCRBi1yCwOrN0aDekpLq14vYBJRYkMlnjkheinP8A-kTZXBteiBaXqWIhHdG7oi4CPYrEkY/IMG_2740.jpg?psid=1"
         ]
       },
     },
     {
       "boy": {
-        "name": "Ion - ASAA",
-        "description": "Ion's description.",
+        "name": "Adrian Amelian",
+        "description": "Buna, sunt o persoana sociabila, dornica de aventura si de a invata lucruri noi. O mare pasiune pentru mine o reprezinta sportul, ghidandu-ma astfel dupa deviza \"Mens sana in corpore sano\".",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public-ch3301.files.1drv.com/y2puXErwbHCAsea3EY6G8EVCajXXPN7SFYkbIXPgujexeF5B-cVfHodRHgm_FEglhSbswi1L_DTxQo3zmXiXk3IxOD9XNtD2lpdrzEUpNbOxTQ/IMG_2680.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2peeGAVI9w_3hq5KeSSrUimfAn6wpVK-lNlkXyBDUNgZm8l4G0wyB8jKrnj6d4Px2P9RB2tnQ1h98L8DQsuQGZL1FAilV80_0drUWjR1SAKIg/IMG_2678.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pGtvuqZ1oC12SP7CSxQlYUjZ1G6GV4unIuLKLFM_BIQRJU6RAx6ZNp_QtJ7tB1odOhZc7OteR4UT7Oa85zCCPj_zIbw6-F_x3RbX_LCMHdGc/IMG_2679.jpg?psid=1"
         ]
       },
       "girl": {
-        "name": "Ioana - ASAA",
-        "description": "Ioana's description.",
+        "name": "Monica Gabriela David",
+        "description": "Numele meu este Monica Gabriela David, am 18 ani si sunt din Giurgiu. Consider ca sunt o persoana sociabila, deschisa si spun pe cat posibil lucrurilor pe nume. Imi place foarte mult sa fac sport, sa dansez si sa ies cu prietenii.",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2pxCWzO3IwLMtE3DYWwNSJlNEpRlqiscPOQRi5SkdAFn5ogpHVfrEw-27OtDzHq6-9PCX9I-OriOt4_Y_CIF_rS3rHNPTr7sZZ1RBYcjr20FE/IMG_2760.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pCzFvXW0XB_L6fo3-ldp7KEUrjA5L9jlIu7LWPMp7-lcf0OwDpMEewhRioF6Uy6L1-r6MadLUpC7bTETTdy58J9MXskZMLs7tFhFPr7YJ12g/IMG_2768.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pGu_ydOz8v0Hhv0pfX3FPonIO3FrnGR_tnFAiapUadvAkKJnBN1tDD0ZFe-0AivP6ZgSnS3Fn8Hre4pAq1NsFQ_wCAOwioUJc7g69VQEOLso/IMG_2764.jpg?psid=1"
         ]
       }
     },
     {
       "boy": {
-        "name": "Alexandru - ASAA",
-        "description": "Alexandru's description.",
+        "name": "Cojanu Andrei",
+        "description": "Am jucat baschet de performata, la echipa orasului cu care am iesit pe locul 2 la campionatul national  , imi place sa citesc , sa stiu cat mai multe despre afaceri si marketing , deasemenea nu imi imaginez viata fara dans si distractie , insa cel mai mult imi plac calatoriile , visez ca intr-o zi voi pleca intr-o expeditie in jurul lumii.<br>Motto : Munceste ca un sclav daca vrei sa traiesti ca un rege!",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public.dm2304.livefilestore.com/y2pAXZVPGrKkydKkc7PHNkMY18OYGcoitsi1k5MfkIzc7NyJQ1HR4aDAfEvsAPriInyx05OPLc_pgmcoKiczKi_qlw66PUckWkgf8Jd_6gnQZM/IMG_2686.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2p4OQr6uMnPGx8_oHYAVDw918BP-x8plbIW8bMB1vvjV0K4NM4YqroH56YOw92EWscWA4hHB5YBgb14n0zBSCU2_ToPAVY5K6UwSBV3ov3mIE/IMG_2683.jpg?psid=1",
+          "https://public.dm2304.livefilestore.com/y2pxwRZnSr0tSFpu3Xxi5QM15fElUDsqWw5Q4y6rg3WEk9Vi-eDoikytcR5SwMU8KFT6Xy_Z8ZE0oXjSGhNoq1Kx-DjzNStqVTSwvXsHWxC95A/IMG_2688.jpg?psid=1"
         ]
       },
       "girl": {
-        "name": "Alexandra - ASAA",
-        "description": "Alexandra's description.",
+        "name": "Stepan Natalia",
+        "description": "Numele meu este Natalia, am 19 ani si sunt din Ploiesti. Sunt studenta la Facultatea de Administratie si Afaceri, specializarea Marketing, din cadrul Universitatii din Bucuresti. Nascuta in zodia Taur, sunt o persoana puternica, ambitioasa si sincera, apreciez fiecare clipa  a vietii, incercand sa gasesc ceva frumos orice lucru si sa obtin intotdeauna ceea ce imi doresc. Daca lupti, poti sa pierzi. Daca nu lupti, ai pierdut deja!",
         "images": [
-          "http://lorempixel.com/400/200/people/1",
-          "http://lorempixel.com/400/200/people/2",
-          "http://lorempixel.com/400/200/people/3"
+          "https://public-ch3301.files.1drv.com/y2pqcCj8dCsUP8-JCvJM8gxHlqfPwKrQOgRgvH5H9PpFP-mLg4ABBrHJRMKwA_ajHCFN-kH-ngbjj16orYqSZr-Fek2xkkDIGjEwsGIwp-dtUA/IMG_2979.jpg?psid=1",
+          "https://public-ch3301.files.1drv.com/y2pjyDCGNU4Zh9LjdD0jU_C3xoiUUmcta_eHdA1i7Redkot1iVSXEdGZi9AR5Rg8ShafduTfE4avHZRWqe_FBRPSOeamGUDJjyAzE34FBfMLOo/IMG_2957.jpg?psid=1",
+          "https://public-ch3301.files.1drv.com/y2p8F9ciYePGO8pXxNeeyct4SlXH3T3EnmZ8sAwNPKkpxA8_sy0adocai5vSLQrFWr6NgOTEr2GwjshgP6IiU0wJTCyP886ohtkzUkzGeKtCwI/IMG_2986.jpg?psid=1"
         ]
       }
     }
