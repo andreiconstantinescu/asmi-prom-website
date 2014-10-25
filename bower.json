@@ -18,6 +18,7 @@
     "jquery": "~2.1.1",
     "bootstrap": "~3.2.0",
     "fontawesome": "~4.2.0",
-    "lightbox": "~2.7.1"
+    "lightbox": "~2.7.1",
+    "gmaps": "~0.4.15"
   }
 }
