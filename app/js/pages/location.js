@@ -19,7 +19,8 @@ module.exports = View.extend({
   },
 
   generateMap: function () {
-    var map = new window.GMaps({
+    var self = this;
+    self.map = new window.GMaps({
       el: this.$('#map')[0],
       lat: 44.4453485,
       lng: 26.0586513,
