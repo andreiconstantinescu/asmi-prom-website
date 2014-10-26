@@ -77,7 +77,7 @@ module.exports = View.extend({
       this.$('.navbar a[href="/' + url.hash.slice(1) + '"]').parent().addClass('active');
     }
     else {
-      this.$('.nav a[href="/' + url.hash + '"]').parent().addClass('active');
+      this.$('.nav a[href="' + url.pathname + '"]').parent().addClass('active');
     }
   },
 

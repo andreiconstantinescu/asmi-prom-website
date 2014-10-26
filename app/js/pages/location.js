@@ -28,7 +28,7 @@ module.exports = View.extend({
       height: '20em',
       zoom: 15
     });
-    map.addMarker({
+    self.map.addMarker({
       lat: 44.4453485,
       lng: 26.0586513
     });
