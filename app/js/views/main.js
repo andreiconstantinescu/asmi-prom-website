@@ -14,7 +14,7 @@ module.exports = View.extend({
   events: {
     'click a[href]:not([rel="download"])': 'handleLinkClick',
     'click .navbar-nav a': 'handleNavLink',
-    'scroll': 'handleScrolling',
+    // 'scroll': 'handleScrolling',
     'hover .navbar-nav a' : 'handleNavHover'
   },
 
@@ -22,7 +22,7 @@ module.exports = View.extend({
     var self = this;
     this.$el.append(this.template());
 
-    $(window).scroll(this.handleScrolling.bind(this));
+    // $(window).scroll(this.handleScrolling.bind(this));
     $('.navbar-nav a').hover(this.handleNavHover.bind(this));
 
     this.pageSwitcher = new ViewSwitcher(this.$('[role="page-container"]')[0], {
