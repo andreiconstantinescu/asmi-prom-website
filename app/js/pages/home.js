@@ -23,7 +23,7 @@ module.exports = View.extend({
 
   handleChevronClick: function () {
     $('body').animate({
-      scrollTop: this.$('.asmi').offset().top - 50
+      scrollTop: this.$('.container').offset().top - 50
     }, 200);
   }
 });
