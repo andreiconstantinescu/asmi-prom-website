@@ -1,21 +1,22 @@
-.container.page
-  h1 Contestants
-  .teams
-    .alert.alert-info
-      h1.text-center
-        a(href="https://foundationapp.herokuapp.com") Voteaza concurentii preferati aici
-    each team in faction
-      .row
-        each member in team
-          .col-sm-6: .content
-            .team.member.image
-              each image, index in member.images
-                if (index === 0)
-                  a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
-                    img.img-responsive(src="#{image}")
-                else
-                  a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
-            .team.member.name
-              h3 #{member.name}
-            .team.member.description
-              p !{member.description}
+.teams-page
+  .container.page
+    h1.loc Concurenti
+    .teams
+      .alert.alert-info
+        h1.text-center
+          a(href="https://foundationapp.herokuapp.com") Voteaza concurentii preferati aici
+      each team in faction
+        .row
+          each member in team
+            .col-sm-6: .content
+              .team.member.image
+                each image, index in member.images
+                  if (index === 0)
+                    a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
+                      img.img-responsive(src="#{image}")
+                  else
+                    a(href="#{image}", data-lightbox='contestants-asmi-#{member.name}', data-title='#{member.name}')
+              .team.member.name
+                h3 #{member.name}
+              .team.member.description
+                p !{member.description}
