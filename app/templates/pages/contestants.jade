@@ -1,75 +1,73 @@
 .container.page
   h1 Contestants
-  .row
-    .col-sm-6
-      .contestants.stripe.asmi
-        .container
-          .content
-            .text-center
-              h1 Facultatea de Matematica si Informatica
-              a(href='/contestants/asmi/teams/')
-                h3 Concurenti
-            .description.hidden
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            #teamAsmi.carousel.slide(data-ride='carousel')
-              ol.carousel-indicators
-                li.active(data-target='#teamAsmi', data-slide-to='0')
-                li(data-target='#teamAsmi', data-slide-to='1')
-                li(data-target='#teamAsmi', data-slide-to='2')
-                li(data-target='#teamAsmi', data-slide-to='3')
-                li(data-target='#teamAsmi', data-slide-to='4')
-                li(data-target='#teamAsmi', data-slide-to='5')
-                li(data-target='#teamAsmi', data-slide-to='6')
-              .carousel-inner(style="max-width: 80%; max-height: 80%")
-                each team, index in teams.asmi
-                  each person in team
-                    if (person.name === 'Serban Marius Bogdan')
-                      .item.active(style="margin-left: 25%")
-                        img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
-                        .carousel-caption.hidden-xs
-                          h3= person.name
-                    else
-                      .item(style="margin-left: 25%")
-                        img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
-                        .carousel-caption.hidden-xs
-                          h3= person.name
-              a.left.carousel-control(href='#teamAsmi', data-slide='prev', style="background: none")
-                span.glyphicon.glyphicon-chevron-left
-              a.right.carousel-control(href='#teamAsmi', data-slide='next', style="background: none")
-                span.glyphicon.glyphicon-chevron-right
-    .col-sm-6
-      .contestants.stripe.asaa
-        .container
-          .content
-            .text-center
-              h1 Facultatea de Administratie si Afaceri
-              a(href='/contestants/asaa/teams/')
-                h3 Concurenti
-            .description.hidden
-              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            #teamAsaa.carousel.slide(data-ride='carousel')
-              ol.carousel-indicators
-                li.active(data-target='#teamAsaa', data-slide-to='0')
-                li(data-target='#teamAsaa', data-slide-to='1')
-                li(data-target='#teamAsaa', data-slide-to='2')
-                li(data-target='#teamAsaa', data-slide-to='3')
-                li(data-target='#teamAsaa', data-slide-to='4')
-                li(data-target='#teamAsaa', data-slide-to='5')
-                li(data-target='#teamAsaa', data-slide-to='6')
-              .carousel-inner(style="max-width: 80%; max-height: 80%")
-                each team, index in teams.asaa
-                  each person in team
-                    if (person.name === 'Furfurica Eduard')
-                      .item.active(style="margin-left: 25%")
-                        img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
-                        .carousel-caption.hidden-xs
-                          h3= person.name
-                    else
-                      .item(style="margin-left: 25%")
-                        img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
-                        .carousel-caption.hidden-xs
-                          h3= person.name
-              a.left.carousel-control(href='#teamAsaa', data-slide='prev', style="background: none")
-                span.glyphicon.glyphicon-chevron-left
-              a.right.carousel-control(href='#teamAsaa', data-slide='next', style="background: none")
-                span.glyphicon.glyphicon-chevron-right
+.contestants.stripe.asmi
+  .container
+    .content
+      .text-center
+        h1 Facultatea de Matematica si Informatica
+        a(href='/contestants/asmi/teams/')
+          h3 Concurenti
+      .description.hidden
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      #teamAsmi.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+          li.active(data-target='#teamAsmi', data-slide-to='0')
+          li(data-target='#teamAsmi', data-slide-to='1')
+          li(data-target='#teamAsmi', data-slide-to='2')
+          li(data-target='#teamAsmi', data-slide-to='3')
+          li(data-target='#teamAsmi', data-slide-to='4')
+          li(data-target='#teamAsmi', data-slide-to='5')
+          li(data-target='#teamAsmi', data-slide-to='6')
+        .carousel-inner(style="max-width: 80%; max-height: 80%")
+          each team, index in teams.asmi
+            each person in team
+              if (person.name === 'Serban Marius Bogdan')
+                .item.active(style="margin-left: 25%")
+                  img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
+                  .carousel-caption.hidden-xs
+                    h3= person.name
+              else
+                .item(style="margin-left: 25%")
+                  img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
+                  .carousel-caption.hidden-xs
+                    h3= person.name
+        a.left.carousel-control(href='#teamAsmi', data-slide='prev', style="background: none")
+          span.glyphicon.glyphicon-chevron-left
+        a.right.carousel-control(href='#teamAsmi', data-slide='next', style="background: none")
+          span.glyphicon.glyphicon-chevron-right
+
+.contestants.stripe.asaa
+  .container
+    .content
+      .text-center
+        h1 Facultatea de Administratie si Afaceri
+        a(href='/contestants/asaa/teams/')
+          h3 Concurenti
+      .description.hidden
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      #teamAsaa.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+          li.active(data-target='#teamAsaa', data-slide-to='0')
+          li(data-target='#teamAsaa', data-slide-to='1')
+          li(data-target='#teamAsaa', data-slide-to='2')
+          li(data-target='#teamAsaa', data-slide-to='3')
+          li(data-target='#teamAsaa', data-slide-to='4')
+          li(data-target='#teamAsaa', data-slide-to='5')
+          li(data-target='#teamAsaa', data-slide-to='6')
+        .carousel-inner(style="max-width: 80%; max-height: 80%")
+          each team, index in teams.asaa
+            each person in team
+              if (person.name === 'Furfurica Eduard')
+                .item.active(style="margin-left: 25%")
+                  img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
+                  .carousel-caption.hidden-xs
+                    h3= person.name
+              else
+                .item(style="margin-left: 25%")
+                  img(src='#{person.images[0]}', style="width: 100%; max-height: 100%; height: 100%")
+                  .carousel-caption.hidden-xs
+                    h3= person.name
+        a.left.carousel-control(href='#teamAsaa', data-slide='prev', style="background: none")
+          span.glyphicon.glyphicon-chevron-left
+        a.right.carousel-control(href='#teamAsaa', data-slide='next', style="background: none")
+          span.glyphicon.glyphicon-chevron-right
