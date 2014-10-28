@@ -7,7 +7,7 @@ var ContestantsPage = require('./pages/contestants');
 var LocationPage = require('./pages/location');
 var ContactPage = require('./pages/contact');
 var TeamsPage = require('./pages/teams');
-var FactionTeamPage = require('./pages/factionTeam');
+var GenericPage = require('./pages/factionTeam');
 
 module.exports = Router.extend({
   routes: {
@@ -16,7 +16,18 @@ module.exports = Router.extend({
     'location/': 'location',
     'contact/': 'contact',
     'contestants/:faction/teams/': 'teams',
-    'contestants/:faction/teams/:number/': 'factionTeam'
+    'contestant/1/': 'page',
+    'contestant/2/': 'page',
+    'contestant/3/': 'page',
+    'contestant/4/': 'page',
+    'contestant/5/': 'page',
+    'contestant/6/': 'page',
+    'contestant/7/': 'page',
+    'contestant/8/': 'page',
+    'contestant/9/': 'page',
+    'contestant/10/': 'page',
+    'contestant/11/': 'page',
+    'contestant/12/': 'page'
   },
   home: function () {
     this.trigger('newPage', new HomePage({}));
@@ -39,10 +50,8 @@ module.exports = Router.extend({
       faction: faction
     }));
   },
-
-  factionTeam: function (number) {
-    this.trigger('newPage', new FactionTeamPage({
-      number: number
-    }));
+  page: function () {
+    this.trigger('newPage', new GenericPage({}));
   }
+
 });

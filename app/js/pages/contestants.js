@@ -11,7 +11,7 @@ module.exports = View.extend({
 
   render: function () {
     var self = this;
-
+    console.log(teams);
     self.$el.html(self.template({
       teams: teams
     }));
