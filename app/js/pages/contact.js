@@ -5,7 +5,7 @@ var View = Backbone.View;
 var templates = require('../lib/templates');
 
 module.exports = View.extend({
-  pageTitle: 'Balul Boboculor | Contact',
+  pageTitle: 'Balul Bobocilor | Contact',
   template: templates.pages.contact,
 
   render: function () {
