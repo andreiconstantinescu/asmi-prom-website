@@ -13,6 +13,7 @@ module.exports = Router.extend({
   routes: {
     '': 'home',
     'contestants/': 'contestants',
+    'contestants': 'contestants',
     'location/': 'location',
     'contact/': 'contact',
     'contestants/:faction/teams/': 'teams',
