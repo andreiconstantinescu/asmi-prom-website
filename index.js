@@ -24,6 +24,10 @@ app.get('/sitemap.xml', function(request, response) {
   response.sendFile(__dirname + '/dist/sitemap.xml');
 });
 
+app.get('/contestants', function(request, response) {
+  response.redirect(window.location.origin + '/contestants/');
+}
+
 app.get('*', function(request, response) {
   // var path = request.url.replace(/\?.*$/, '').replace(/\/$/, '').replace(/^\//, '');
   // var found = false;
