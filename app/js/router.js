@@ -8,6 +8,7 @@ var LocationPage = require('./pages/location');
 var ContactPage = require('./pages/contact');
 var TeamsPage = require('./pages/teams');
 var GenericPage = require('./pages/factionTeam');
+var RezultatePage = require('./pages/rezultate');
 
 module.exports = Router.extend({
   routes: {
@@ -28,7 +29,8 @@ module.exports = Router.extend({
     'contestant/9/': 'page',
     'contestant/10/': 'page',
     'contestant/11/': 'page',
-    'contestant/12/': 'page'
+    'contestant/12/': 'page',
+    'rezultate/': 'rezultate'
   },
   home: function () {
     this.trigger('newPage', new HomePage({}));
@@ -53,6 +55,9 @@ module.exports = Router.extend({
   },
   page: function () {
     this.trigger('newPage', new GenericPage({}));
-  }
+  },
 
+  rezultate: function () {
+    this.trigger('newPage', new RezultatePage({}));
+  }
 });
