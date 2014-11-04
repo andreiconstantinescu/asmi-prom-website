@@ -1,8 +1,10 @@
-- var logos = ['../../assets/logos/logo1.png','../../assets/logos/logo2.jpg','../../assets/logos/logo3.png','../../assets/logos/logo4.png','../../assets/logos/logo5.jpg','../../assets/logos/logo6.jpg', '../../assets/logos/logo7.jpg', '../../assets/logos/logo9.jpg', '../../assets/logos/logo10.jpeg', '../../assets/logos/logo11.jpg', '../../assets/logos/logo12.png', '../../assets/logos/logo13.png', '../../assets/logos/logo14.jpg' ]
+- var logos = ['../../assets/logos/logo2.jpg','../../assets/logos/logo3.png','../../assets/logos/logo4.png','../../assets/logos/logo5.jpg','../../assets/logos/logo6.jpg', '../../assets/logos/logo7.jpg', '../../assets/logos/logo9.jpg', '../../assets/logos/logo10.jpeg', '../../assets/logos/logo11.jpg', '../../assets/logos/logo12.png', '../../assets/logos/logo13.png', '../../assets/logos/logo14.jpg', 'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/10744739_743438142398242_1114125375_n.jpg?oh=7154d02068ca59950c531d4c41e58ed9&oe=545B8D07&__gda__=1415316759_9013c3619970db7b3ab11c08e6587b24', 'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/10752061_743209335754456_870641588_n.jpg?oh=a1eccd86ebc1cb5958ca068eb72f39dd&oe=545B8A26&__gda__=1415292411_977e20d74e184e7eac93d7a4f6e74459', 'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/10748614_743209255754464_870619772_n.jpg?oh=d2da6a95c4ed6b0f1cd62435f97df3c7&oe=545AC71B&__gda__=1415290822_4f6951fcb5ad29c5cb29c987ea737264', 'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t35.0-12/10800068_743209195754470_184541033_o.jpg?oh=74a667d241d8b4adcf9803b8bfb94554&oe=545B9253&__gda__=1415300302_d2371225d53f9f6c35f5b4480a541918', 'https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/10743561_743209119087811_1272340191_n.jpg?oh=ac717bb7d1b61f188f0972eb965d014b&oe=545BF22C&__gda__=1415290044_5136bdfdf3322e7d111e3d27be0b2d1c' ]
 .footer
   .container
     h2 Parteneri
     .row
+      .col-sm-2.col-xs-4
+        img(src="../../assets/logos/logo1.png", style="height: 10em")
       each logo in logos
         .col-sm-2.col-xs-4
           img(src="#{logo}")
